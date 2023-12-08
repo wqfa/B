@@ -48,7 +48,7 @@ Good evening 🗽
 ⌯ User ⤷ @{username}
 ⌯ Save ⤷ Account
 ⌯ Clicks ⤷ {clicks}
-⌯ Program the bot ⤷ @StrPython''')
+⌯ Program the bot ⤷ @u4060''')
                         	os.remove("clicks.txt")
                         	break
                         except Exception as USFL:
