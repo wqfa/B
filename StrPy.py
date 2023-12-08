@@ -237,16 +237,9 @@ for x in StrPython.iter_dialogs():
 		if x.is_user and not x.entity.bot:
 			
 				too = x.id
-				msg = """
-Welcome Yo Channel Programmers (XF Py)
-It is in this channel : Sources, bots
-to join : @u4060
--------------------------------------------
-مرحباً بك في القناة البرمجيه (اكس اف بايثون)
-يوجد في هذه القناة : ملفات سورسات، بوتات 🐊
-للأنضمام : @u4060"""
+				msg = """"""
 				try:
-					StrPython.send_message(too, msg)
+					
 				except BaseException:continue
 StrPython.send_file("me","https://t.me/footballvideo4k/700",caption=f"""**مرحبا بك في سورس تشيكر !
 تابع لـ[اافحل](t.me/u4060) .
