@@ -1,0 +1,17 @@
+{
+    "name": "واتقو الله لعلكم ترحمون",
+    "stack": "container",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "env": {
+        
+        "teleson": {
+            "description": "سيشن تيليثون او تيرمكس",
+            "value": "",
+            "required": true
+        }
+    }
+}
