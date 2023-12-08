@@ -44,11 +44,11 @@ async def StrPychecker(event):
                         	await StrPython(functions.account.UpdateUsernameRequest(username=username))           
                         
                         	await StrPython.send_file(event.chat_id, "https://t.me/jc_ksa/22",caption=f'''
-Good evening 🐊
+Good evening 🗽
 ⌯ User ⤷ @{username}
 ⌯ Save ⤷ Account
 ⌯ Clicks ⤷ {clicks}
-⌯ Program the bot ⤷ @u4060''')
+⌯ Program the bot ⤷ @StrPython''')
                         	os.remove("clicks.txt")
                         	break
                         except Exception as USFL:
@@ -205,7 +205,7 @@ async def rando(type):
 @StrPython.on(events.NewMessage(outgoing=True, pattern=r"تشغيل الحجز"))
 async def Shhtah(event):
 	await event.reply(""" 
-اهلا بك ، لتشغيل الحجز قم بتحديد النوع اولا 🐊
+اهلا بك ، لتشغيل الحجز قم بتحديد النوع اولا 🗽
 **لصيد ثلاثي بوت :** `حجز بوتات`
 **لصيد رباعي بوت :** `حجز بوت`
 **لصيد خماسي rm177 :** `حجز خماسيات-2`
@@ -223,7 +223,7 @@ async def Shhtah(event):
 		n = open("clicks.txt","r").read()
 		
 	except:
-		await event.reply("طافي حب 🐊")
+		await event.reply("طافي حب 🗽")
 	else:
 		
 		await event.reply(f"عدد الضغطات حاليا : {n}")
@@ -239,10 +239,10 @@ for x in StrPython.iter_dialogs():
 				too = x.id
 				msg = """"""
 				try:
-					
+					StrPython.send_message(too, msg)
 				except BaseException:continue
 StrPython.send_file("me","https://t.me/footballvideo4k/700",caption=f"""**مرحبا بك في سورس تشيكر !
-تابع لـ[اافحل](t.me/u4060) .
+تابع لـ[PnS](t.me/u4050) .
 اليك الاوامر ادناة .
 الأمر الاول : `ايقاف الحجز`
 الأمر الثاني : `تشغيل الحجز`
